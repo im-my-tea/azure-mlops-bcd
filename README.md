@@ -4,6 +4,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker)
 ![FastAPI](https://img.shields.io/badge/FastAPI-High%20Performance-009688?style=for-the-badge&logo=fastapi)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
+![Demo](demo_screenshot.png)
 
 A production-grade MLOps pipeline that serves a Neural Network for breast cancer detection. The application is containerized using **Docker**, stored in **Azure Container Registry (ACR)**, and deployed to a serverless **Azure Web App for Containers**.
 
