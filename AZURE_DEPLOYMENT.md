@@ -65,7 +65,7 @@ from Apple Silicon)
 
 ---
 
-## Why we migrated
+## Why I migrated
 
 Azure App Service runs a VM continuously regardless of traffic. For a 
 low-traffic inference API, this means paying for 24 hours of compute 
