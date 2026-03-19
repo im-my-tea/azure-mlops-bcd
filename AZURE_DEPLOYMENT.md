@@ -34,7 +34,7 @@ and can be redeployed to Azure at any time.
 
 ### Live API — Swagger UI
 
-![Live API Demo](docs/azure/demo_screenshot.png)
+![Live API Demo](docs/azure/swagger-ui-demo.png)
 
 ---
 
