@@ -56,8 +56,8 @@ The migration to GCP Cloud Run was a deliberate architectural decision:
 For a bursty, low-traffic inference API, serverless is the correct model. 
 The Docker image is unchanged — only the platform it runs on changed.
 
-The original Azure deployment image is preserved in ACR at 
-`ayushmlops101.azurecr.io/breast-cancer-api:v1`.
+The original Azure deployment image is preserved in Google Artifact Registry at  
+`us-central1-docker.pkg.dev/ayush-mlops-gcp/mlops-repo/breast-cancer-api:azure-v1`.
 
 ---
 

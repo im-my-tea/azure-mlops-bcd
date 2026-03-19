@@ -17,8 +17,15 @@ rationale.
 **Region:** Central India  
 **Status at teardown:** Running, Healthy  
 
-The ACR image is preserved at `ayushmlops101.azurecr.io/breast-cancer-api:v1`
-and can be redeployed to Azure at any time.
+The ACR registry was decommissioned when the Azure free trial expired 
+(March 2026). The image was re-tagged and pushed to Google Artifact Registry 
+for preservation:
+
+`us-central1-docker.pkg.dev/ayush-mlops-gcp/mlops-repo/breast-cancer-api:azure-v1`
+
+To restore locally:
+    docker pull us-central1-docker.pkg.dev/ayush-mlops-gcp/mlops-repo/breast-cancer-api:azure-v1
+
 
 ---
 
